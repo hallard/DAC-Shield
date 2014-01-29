@@ -17,15 +17,15 @@ Check out news and other projects on my [blog][4]
 Detailed Description
 ====================
 
-Everything will be documented on my[blog][4]
+Everything will be documented on my [blog][4]
 
 **Schematic**  
-![schematic](https://raw.github.com/hallard/DAC-Shield/master/DAC-Shield-sch.png)
+![schematic](https://raw.github.com/hallard/DAC-Shield/master/dac-Shield-sch.png)
 
 **Board**  
-![board]( https://raw.github.com/hallard/DAC-Shield/master/DAC-Shield-brd.png )
+![board]( https://raw.github.com/hallard/DAC-Shield/master/dac-Shield-brd.png )
 
-![top](https://raw.github.com/hallard/DAC-Shield/master/DAC-Shield-top.png)&nbsp;&nbsp;![bottom](https://raw.github.com/hallard/DAC-Shield/master/DAC-Shield-bottom.png)
+![top](https://raw.github.com/hallard/DAC-Shield/master/dac-Shield-top.png)&nbsp;&nbsp;![bottom](https://raw.github.com/hallard/DAC-Shield/master/dac-Shield-bottom.png)
 
 [4]: http://hallard.me
 
