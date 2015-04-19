@@ -10,7 +10,10 @@ This is a simple board to be able to
 - 1 WS2812B RGB Led
 
 <strike>This is a proto board, I've just ordered one on OSHPark, will put 
-more details once received and tested</strike> This shield has been fully tested and it's working fine. The only problem was my bad datasheet reading, the DAC7565 output from the chip are not 0V 5V as I expected but 0V 2.5V (internal VREF) So as I multiply ouput per 2, the output for these 4 outputs are 0V-5V not 0V-10V, you can change the multiplier by changing resitor R2/R4/R6/R8 from 10K to 30K.
+more details once received and tested</strike> This shield has been fully tested and it's working fine on all features. 
+The only problem was my bad datasheet reading, the DAC7565 output from the chip are not 0V 5V as I expected but 0V 2.5V (internal VREF) So as I multiply ouput per 2, the output for these 4 outputs are 0V-5V not 0V-10V, you can change the multiplier by changing resitor R2/R4/R6/R8 from 10K to 30K.
+Also TL072 are not working well with single rail supply for PWM to DAC conversion at low level (says from 0V to 1V), I replaced them
+by LM358 (same package) but more suited for single rail supply.
 
 I wrote an Arduino Library to drive the DAC7565 [here][3]
 
